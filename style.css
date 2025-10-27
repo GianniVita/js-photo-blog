@@ -44,7 +44,6 @@ main {
 
 p {
     font-family: 'Sometype Mono', monospace;
-
 }
 
 h3{
@@ -60,8 +59,6 @@ h3{
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
-
-
 }
 
 .photo-card {
@@ -70,7 +67,6 @@ h3{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     position: relative;
-    
 }
 
 img {
@@ -88,5 +84,15 @@ img {
     transform: translateX(-50%);
     z-index: 10;
 }
+
+/* Tablet styles */
+
+@media screen and (max-width: 1199px)
+    .photo-grid {
+        grid-template-columns; repeat (2, 1fr);
+        gap: 2rem;
+        max-width: 800px;
+    }
+
 
 
