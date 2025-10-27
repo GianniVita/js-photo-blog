@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+/* Utilities  */
+
+
+
+
+
+
 header {
-    background-image: ;
+    background-image: url("./assets_day1/img/wall.png");
+}
+
+main {
+    background-image: url("./assets_day1/img/cork.png");
+    align-items: center;
 }
