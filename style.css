@@ -17,6 +17,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 header {
@@ -87,12 +88,53 @@ img {
 
 /* Tablet styles */
 
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 1199px){
     .photo-grid {
-        grid-template-columns; repeat (2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
         max-width: 800px;
     }
+
+    .photo-card img{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .pinicon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+
+
+/* Smartphone: Fino a 767px */
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        grid-template-columns: 1fr; 
+        gap: 1.5rem;
+        max-width: 90%; 
+        padding: 0.5rem;
+    }
+
+    .photo-card {
+        padding: 8px 8px 20px 8px;
+    }
+    
+    .photo-card img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .pinicon {
+        width: 20px;
+        height: 20px;
+    }
+
+}
 
 
 
