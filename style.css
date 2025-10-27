@@ -78,17 +78,6 @@ img {
     display: block;
 }
 
-.photo-card {
-    position: relative;
-
-}
 
 
-img {
-    background-image: url(".//assets_day1/img/pin.svg");
-    background-repeat: no-repeat;
-    background-position: top center;
-    position: absolut;
-    z-index: 1;
 
-}
