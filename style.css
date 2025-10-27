@@ -41,19 +41,34 @@ main {
     padding: 3rem 0;
 }
 
-img {
-    width: 600px;
-    height: 600px;
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
    
 
 }
 
-section {
+.photo-card {
     background-color: #ffffff;
-    background-size: 700px 700px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 2 2rem;
-    gap: 1rem;
+    padding: 10px 10px 30px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+
+.photo-card {
+    background-image: url(".//assets_day1/img/pin.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+
+
 }
