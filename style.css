@@ -1,3 +1,5 @@
+/* Reset rules */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,11 +13,28 @@
 
 
 
+
+/* Layout code */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
 header {
     background-image: url("./assets_day1/img/wall.png");
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 main {
     background-image: url("./assets_day1/img/cork.png");
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
 }
