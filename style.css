@@ -12,8 +12,6 @@
 
 
 
-
-
 /* Layout code */
 body {
     display: flex;
@@ -23,6 +21,9 @@ body {
 
 header {
     background-image: url("./assets_day1/img/wall.png");
+    font-family: 'Edu Tas Beginner', sans-serif;
+    font-style: 'Sometype Mono', monospace;
+    font-size: 4rem;
     background-size: cover;
     width: 100%;
     height: 150px;
@@ -48,7 +49,7 @@ main {
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
-   
+
 
 }
 
@@ -70,5 +71,11 @@ img {
     background-repeat: no-repeat;
     background-position: top center;
 
+
+}
+
+p {
+    font-family: 'Edu Tas Beginner', sans-serif;
+    font-style: 'Sometype Mono', monospace;
 
 }
