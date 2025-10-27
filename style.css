@@ -12,7 +12,7 @@
 
 
 
-/* Layout code */
+/* Layout code for the main tags */
 body {
     display: flex;
     min-height: 100vh;
@@ -22,7 +22,6 @@ body {
 header {
     background-image: url("./assets_day1/img/wall.png");
     font-family: 'Edu Tas Beginner', sans-serif;
-    font-style: 'Sometype Mono', monospace;
     font-size: 4rem;
     background-size: cover;
     width: 100%;
@@ -41,6 +40,13 @@ main {
     flex-grow: 1;
     padding: 3rem 0;
 }
+
+p {
+    font-family: 'Sometype Mono', monospace;
+
+}
+
+/* Photo grid styles and images */
 
 .photo-grid {
     display: grid;
@@ -70,12 +76,5 @@ img {
     background-image: url(".//assets_day1/img/pin.svg");
     background-repeat: no-repeat;
     background-position: top center;
-
-
-}
-
-p {
-    font-family: 'Edu Tas Beginner', sans-serif;
-    font-style: 'Sometype Mono', monospace;
 
 }
