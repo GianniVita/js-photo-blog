@@ -57,18 +57,14 @@ schedaFoto.innerHTML = `
 
      <img src="./assets_day1/img/pin.svg" class="pinicon" alt="red pin" >
                 
-            <img src="${datiFoto.url}" alt="${datiFoto.description}">
+            <img src="${datiFoto.url}" alt="${datiFoto.title}">
                 <div class="info">
                     <p>${datiFoto.date}</p>
-                    <h3>${datiFoto.description}</h3>
+                    <h3>${datiFoto.title}</h3>
  
 
-`
-
-
-
-    
-  
+`;
+fotoGridContainer.append(schedaFoto);
 
     }
     
