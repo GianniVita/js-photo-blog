@@ -46,28 +46,32 @@ axios.get(endpoint)
 for (let i = 0; i < listaFoto.length; i++) {
 // Salvo le foto in una costante
     const datiFoto = listaFoto[i];
-// uso un IF per la cosa più base per vedere se i dati ci sono
-if (datiFoto){
-   // console.log(datiFoto)
-
+    // console.log(datiFoto)
 // I dati sono presenti allora posso provare a inserire le foto nell'html con cosa? 
-    // un 'innerhtml' può farlo 
-    // Potremmo usare anche una "classList" per aggiungere gli elementi in html
-    
-    // Qui faccio la scheda delle foto importando quello che ce nel div che mi interessa cambiare
+const schedaFoto = document.createElement('div');
+// Potremmo usare anche una "classList" per aggiungere gli elementi in html
+schedaFoto.classList.add('photo-card');
+// Un 'innerhtml' fa inserire i dati nell DOM 
+// Qui faccio la scheda delle foto importando quello che ce nel div che mi interessa cambiare
+schedaFoto.innerHTML = `
 
-    {/* <img src="./assets_day1/img/pin.svg" class="pinicon" alt="red pin" >
-                <img src="./assets_day1/img/verde.png" alt="Photo 1">
+     <img src="./assets_day1/img/pin.svg" class="pinicon" alt="red pin" >
+                
+            <img src="${datiFoto.url}" alt="${datiFoto.description}">
                 <div class="info">
-                    <p> Dates photo goes here</p>
-                    <h3>SKATE PARK</h3>
- */
-        }
+                    <p>${datiFoto.date}</p>
+                    <h3>${datiFoto.description}</h3>
+ 
+
+`
+
+
+
+    
+  
 
     }
     
-} 
-
 })
 
 
