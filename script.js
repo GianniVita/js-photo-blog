@@ -68,7 +68,8 @@ fotoGridContainer.append(schedaFoto);
 
     }
     
-})
+});
+
 
 
         

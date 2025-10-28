@@ -49,6 +49,7 @@ p {
 
 h3{
     font-family: 'Edu TAS Beginner', sans-serif;
+   text-transform: uppercase;
 }
 
 /* Photo grid styles and images */
