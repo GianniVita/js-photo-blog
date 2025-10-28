@@ -46,7 +46,11 @@ axios.get(endpoint)
 for (let i = 0; i < listaFoto.length; i++) {
 // Salvo le foto in una costante
     const datiFoto = listaFoto[i];
-// 
+// uso un IF per la cosa più base per vedere se i dati ci sono
+if (datiFoto){
+   // console.log(datiFoto)
+
+}
 } 
 
 })
