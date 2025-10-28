@@ -34,11 +34,20 @@ Non siete obbligati a usare Bootstrap: siete liberi di decidere come gestire lo 
 // getting the API declaring a costant variable
 const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
 
-
+// CHIAMA l'indirizzo (usa axios.get).
 axios.get(endpoint)
+// Arrivano i dati con .then
 .then(response =>{
+// Loggo per vedere se si vedono i dati da "endpoint"
     console.log(response.data);
-    
+// Creo una costante dove mettere i dati di response che diventa un'array
+    const listaFoto = response.data;
+// Creo un ciclo "for" scorrere le foto fornite dall'endpoint
+for (let i = 0; i < listaFoto.length; i++) {
+// Salvo le foto in una costante
+    const datiFoto = listaFoto[i];
+// 
+} 
 
 })
 
