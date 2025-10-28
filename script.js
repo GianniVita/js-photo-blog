@@ -50,7 +50,22 @@ for (let i = 0; i < listaFoto.length; i++) {
 if (datiFoto){
    // console.log(datiFoto)
 
-}
+// I dati sono presenti allora posso provare a inserire le foto nell'html con cosa? 
+    // un 'innerhtml' può farlo 
+    // Potremmo usare anche una "classList" per aggiungere gli elementi in html
+    
+    // Qui faccio la scheda delle foto importando quello che ce nel div che mi interessa cambiare
+
+    {/* <img src="./assets_day1/img/pin.svg" class="pinicon" alt="red pin" >
+                <img src="./assets_day1/img/verde.png" alt="Photo 1">
+                <div class="info">
+                    <p> Dates photo goes here</p>
+                    <h3>SKATE PARK</h3>
+ */
+        }
+
+    }
+    
 } 
 
 })
