@@ -32,19 +32,13 @@ rendi la pagina responsive, in modo che su mobile e tablet le foto si dispongano
 Non siete obbligati a usare Bootstrap: siete liberi di decidere come gestire lo stile 🙂 */
 
 
-function caricaFoto(){
 
-    const fotoGridContainerEl = document.getElementById('fotoGridContainer');
- 
-    axios.get('https://lanciweb.github.io/demo/api/pictures/');
-        .then(response =>{
-         const listaFoto = response.data;
-         
-         
 
+axios.get('https://lanciweb.github.io/demo/api/pictures/')
+    .then(response => {
+
+        listaFoto = response.data;
+
+        console.log("Dati ricevuti da API", listaFoto);
+        
     })
-
-    
-
-
-}
