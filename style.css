@@ -95,11 +95,11 @@ img {
         max-width: 800px;
     }
 
-    .photo-card img{
+  /*   .photo-card img{
         width: 100%;
         height: auto;
         position: relative;
-    }
+    } */
     .pinicon {
         width: 20px;
         height: 20px;
@@ -130,12 +130,12 @@ img {
         padding: 8px 8px 20px 8px;
     }
     
-    .photo-card img {
+  /*   .photo-card img {
         width: 100%; 
         height: auto;
         position: relative;
     }
-
+ */
     .pinicon {
         width: 20px;
         height: 20px;
