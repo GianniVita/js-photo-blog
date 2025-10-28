@@ -31,14 +31,16 @@ rendi la pagina responsive, in modo che su mobile e tablet le foto si dispongano
 **Note**
 Non siete obbligati a usare Bootstrap: siete liberi di decidere come gestire lo stile 🙂 */
 
+// getting the API declaring a costant variable
+const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
 
 
+axios.get(endpoint)
+.then(response =>{
+    console.log(response.data);
+    
 
-axios.get('https://lanciweb.github.io/demo/api/pictures/')
-    .then(response => {
+})
 
-        listaFoto = response.data;
 
-        console.log("Dati ricevuti da API", listaFoto);
         
-    })
