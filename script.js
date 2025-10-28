@@ -33,11 +33,14 @@ Non siete obbligati a usare Bootstrap: siete liberi di decidere come gestire lo 
 
 
 function caricaFoto(){
+
+    const fotoGridContainerEl = document.getElementById('fotoGridContainer');
+ 
     axios.get('https://lanciweb.github.io/demo/api/pictures/');
         .then(response =>{
          const listaFoto = response.data;
          
-         listaFoto.forEach
+         
 
     })
 
