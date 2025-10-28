@@ -32,4 +32,16 @@ rendi la pagina responsive, in modo che su mobile e tablet le foto si dispongano
 Non siete obbligati a usare Bootstrap: siete liberi di decidere come gestire lo stile 🙂 */
 
 
-func
+function caricaFoto(){
+    axios.get('https://lanciweb.github.io/demo/api/pictures/');
+        .then(response =>{
+         const listaFoto = response.data;
+         
+         listaFoto.forEach
+
+    })
+
+    
+
+
+}
