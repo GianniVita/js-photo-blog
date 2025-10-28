@@ -103,6 +103,12 @@ img {
     .pinicon {
         width: 20px;
         height: 20px;
+        top: -10px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        z-index: 10;
+        
     }
 }
 
@@ -127,11 +133,17 @@ img {
     .photo-card img {
         width: 100%; 
         height: auto;
+        position: relative;
     }
 
     .pinicon {
         width: 20px;
         height: 20px;
+        top: -10px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        z-index: 10;
     }
 
 }
